@@ -166,7 +166,7 @@ show_heading: false
 
 Our team brings together subject-matter expertise in ’omics, statistics, and computation, with strengths in research data management and the UK’s largest Carpentries chapter, to build an extensive cohort of confident practitioners and a scalable and sustainable network of health and bioscience data science training for the UK.
 
-# Original Project 2021-2023
+# The Original Project (2021/3)
 
 ## Co-Investigators
 
@@ -250,7 +250,7 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
     {% endfor %}
  </table>
 
-# Project Extension 2023/4
+# Project Extension (2023/4)
 
 ## Co-Investigators
 
@@ -262,7 +262,6 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
     </tr>
     {% endfor %}
 </table>
-## Co-Investigators
 
 ## Programme Coordination
 
