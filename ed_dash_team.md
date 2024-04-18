@@ -27,19 +27,22 @@ co_investigators:
 
 co_investigators_extension:
 - name: Giacomo Peru 
-  role: Coordinator
+  role: Project Officer
   affiliation: EPCC
   img: giacomo_peru_2.jpeg
+  url: https://www.epcc.ed.ac.uk/about-us/our-team/giacomo-peru
 - name: Ailith Ewing
   role: Chancellor's Fellow
   affiliation: MRC Human Genetics Unit and Cancer Research UK Edinburgh Centre, MRC Institute of Genetics and Cancer
   img: ailith_ewing.jpeg
+  url: https://www.ed.ac.uk/profile/dr-ailith-ewing
 
 programme_coordination:
 - name: Giacomo Peru 
   role: Coordinator
   affiliation: EPCC
   img: giacomo_peru_2.jpeg
+  url: https://www.epcc.ed.ac.uk/about-us/our-team/giacomo-peru
 
 edcarp_coordination:
 - name: Giacomo Peru 
@@ -56,6 +59,7 @@ programme_coordination_extension:
   role: Coordinator
   affiliation: EPCC
   img: andrzej_romaniuk.jpeg
+  url: https://andrzejromaniuk.github.io/CV/
 
 dev_computational_workflows:
 - name: Alison Meynert, Co-Lead
