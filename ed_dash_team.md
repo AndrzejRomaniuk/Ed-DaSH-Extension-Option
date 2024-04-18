@@ -55,7 +55,7 @@ programme_coordination_extension:
 - name: Andrzej Romanik
   role: Coordinator
   affiliation: EPCC
-  img: andrzej.romaniuk.jpeg
+  img: andrzej_romaniuk.jpeg
 
 dev_computational_workflows:
 - name: Alison Meynert, Co-Lead
