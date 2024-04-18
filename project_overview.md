@@ -32,6 +32,9 @@ We will deliver these training workshops (online) using a well-established commu
 
 Our programme will help level-up data skills across the UK and develop a growing cohort of confident practitioners across all career stages and industries. This will help meet the growing demand for data-savvy health and bioscience researchers in academia and industry.
 
+## 2023-2024 project extension
+
+
 ---
 
 [fair]: https://www.nature.com/articles/sdata201618
