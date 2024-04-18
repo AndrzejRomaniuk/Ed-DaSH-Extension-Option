@@ -24,7 +24,17 @@ co_investigators:
   affiliation: School of Biological Sciencs
   img: edward_wallace.jpeg
   url: https://www.ed.ac.uk/profile/dr-edward-wallace
-  
+
+co_investigators_extension:
+- name: Giacomo Peru 
+  role: Coordinator
+  affiliation: EPCC
+  img: giacomo_peru_2.jpeg
+- name: Ailith Ewing
+  role: Chancellor's Fellow
+  affiliation: MRC Human Genetics Unit and Cancer Research UK Edinburgh Centre, MRC Institute of Genetics and Cancer
+  img: ailith_ewing.jpeg
+
 programme_coordination:
 - name: Giacomo Peru 
   role: Coordinator
@@ -40,7 +50,13 @@ edcarp_coordination:
   role: Development Assistant 
   affiliation: School of Biological Sciences
   img: flic_anderson.jpeg
-  
+
+programme_coordination_extension:
+- name: Andrzej Romanik
+  role: Coordinator
+  affiliation: EPCC
+  img: andrzej.romaniuk.jpeg
+
 dev_computational_workflows:
 - name: Alison Meynert, Co-Lead
   role: Senior Research Fellow & IGC Bioinformatics Analysis Core Manager 
@@ -150,6 +166,8 @@ show_heading: false
 
 Our team brings together subject-matter expertise in ’omics, statistics, and computation, with strengths in research data management and the UK’s largest Carpentries chapter, to build an extensive cohort of confident practitioners and a scalable and sustainable network of health and bioscience data science training for the UK.
 
+# Original Project 2021-2023
+
 ## Co-Investigators
 
 <table class="center-cell-item">
@@ -227,6 +245,31 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
     {% for member in page.steering_group: %}
     <tr> 
       <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
+    </tr>
+    {% endfor %}
+ </table>
+
+# Project Extension 2023/4
+
+## Co-Investigators
+
+<table class="center-cell-item">
+    {% for member in page.co_investigators_extension %}
+    <tr>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
+    </tr>
+    {% endfor %}
+</table>
+## Co-Investigators
+
+## Programme Coordination
+
+<table class="center-cell-item">
+    {% for member in page.programme_coordination_extension: %}
+    <tr> 
+      <td><img src="images/profiles/{{ member.img }}" width=80 alt="{{ member.name }}"></td>
       <td>{{ member.name }}, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
