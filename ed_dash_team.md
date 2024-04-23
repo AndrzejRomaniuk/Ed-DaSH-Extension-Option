@@ -25,17 +25,34 @@ co_investigators:
   img: edward_wallace.jpeg
   url: https://www.ed.ac.uk/profile/dr-edward-wallace
 
+project_lead_extension:
+- name: Alison Meynert 
+  role: Senior Research Fellow & IGC Bioinformatics Analysis Core Manager 
+  affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
+  img: alison_meynert.jpeg
+  url: https://www.ed.ac.uk/profile/dr-alison-meynert
+
 co_investigators_extension:
-- name: Giacomo Peru 
-  role: Project Officer
-  affiliation: EPCC
-  img: giacomo_peru_2.jpeg
-  url: https://www.epcc.ed.ac.uk/about-us/our-team/giacomo-peru
 - name: Ailith Ewing
   role: Chancellor's Fellow
   affiliation: MRC Human Genetics Unit and Cancer Research UK Edinburgh Centre, MRC Institute of Genetics and Cancer
   img: ailith_ewing.jpeg
   url: https://www.ed.ac.uk/profile/dr-ailith-ewing
+- name: Catalina Vallejos, 	Group Leader
+  role: Chancellor’s Fellow & Fellow of the Turing Institute
+  affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
+  img: catalina_vallejos.jpeg
+  url: https://www.ed.ac.uk/mrc-human-genetics-unit/research/vallejos-group
+- name: Edward Wallace
+  role: Sir Henry Dale Fellow 
+  affiliation: School of Biological Sciencs
+  img: edward_wallace.jpeg
+  url: https://www.ed.ac.uk/profile/dr-edward-wallace
+- name: Giacomo Peru 
+  role: Project Officer
+  affiliation: EPCC
+  img: giacomo_peru_2.jpeg
+  url: https://www.epcc.ed.ac.uk/about-us/our-team/giacomo-peru
 
 programme_coordination:
 - name: Giacomo Peru 
@@ -165,12 +182,29 @@ web_development:
   affiliation: MRC IGC CRUK Edinburgh Centre
   img: robert_nagy_eddash_2.jpeg
 
+lesson_review:
+- name: Graeme Grimes
+  role: Bioinformatician & IGC Bioinformatics Training Coordinator
+  affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
+  img: graeme_grimes.jpeg
+  url:
+- name: Tim Booth
+  role: Bioinformatician/Programmer
+  affiliation: Edinburgh Genomics
+  img: tim_booth.jpeg
+  url:
+- name: Mary Llewellyn
+  role: Course Developer
+  affiliation: School of Mathematics
+  img: mary_llewellyn.jpeg
+  url:
+
 show_heading: false 
 ---  
 
 Our team brings together subject-matter expertise in ’omics, statistics, and computation, with strengths in research data management and the UK’s largest Carpentries chapter, to build an extensive cohort of confident practitioners and a scalable and sustainable network of health and bioscience data science training for the UK.
 
-# The Original Project (2021/3)
+# Main project (Feb 2021 - February 2023)
 
 ## Co-Investigators
 
@@ -254,12 +288,34 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
     {% endfor %}
  </table>
 
-# Project Extension (2023/4)
+# Extension (Dec 2023 - Mar 2024)
+
+## Project Lead
+
+<table class="center-cell-item">
+    {% for member in page.co_project_lead_extension: %}
+    <tr>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
+    </tr>
+    {% endfor %}
+</table>
 
 ## Co-Investigators
 
 <table class="center-cell-item">
     {% for member in page.co_investigators_extension %}
+    <tr>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+## Lesson Reviewers
+
+<table class="center-cell-item">
+    {% for member in page.co_lesson_review %}
     <tr>
       <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
       <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
