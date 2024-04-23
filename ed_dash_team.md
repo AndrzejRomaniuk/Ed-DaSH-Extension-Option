@@ -73,7 +73,7 @@ edcarp_coordination:
 
 programme_coordination_extension:
 - name: Andrzej Romanik
-  role: Coordinator
+  role: Workshops Coordinator
   affiliation: EPCC
   img: andrzej_romaniuk.jpeg
   url: https://andrzejromaniuk.github.io/CV/
@@ -312,17 +312,6 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
     {% endfor %}
 </table>
 
-## Lesson Reviewers
-
-<table class="center-cell-item">
-    {% for member in page.lesson_review %}
-    <tr>
-      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
-      <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
-    </tr>
-    {% endfor %}
-</table>
-
 ## Programme Coordination
 
 <table class="center-cell-item">
@@ -333,3 +322,14 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
     </tr>
     {% endfor %}
  </table>
+
+## Lesson Reviewers
+
+<table class="center-cell-item">
+    {% for member in page.lesson_review %}
+    <tr>
+      <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
+      <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
+    </tr>
+    {% endfor %}
+</table>
