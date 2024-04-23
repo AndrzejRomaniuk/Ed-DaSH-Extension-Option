@@ -49,7 +49,7 @@ co_investigators_extension:
   img: edward_wallace.jpeg
   url: https://www.ed.ac.uk/profile/dr-edward-wallace
 - name: Giacomo Peru 
-  role: Project Officer
+  role: Project Coordinator
   affiliation: EPCC
   img: giacomo_peru_2.jpeg
   url: https://www.epcc.ed.ac.uk/about-us/our-team/giacomo-peru
