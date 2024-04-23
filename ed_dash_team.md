@@ -38,7 +38,7 @@ co_investigators_extension:
   affiliation: MRC Human Genetics Unit and Cancer Research UK Edinburgh Centre, MRC Institute of Genetics and Cancer
   img: ailith_ewing.jpeg
   url: https://www.ed.ac.uk/profile/dr-ailith-ewing
-- name: Catalina Vallejos, 	Group Leader
+- name: Catalina Vallejos
   role: Chancellor’s Fellow & Fellow of the Turing Institute
   affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
   img: catalina_vallejos.jpeg
@@ -188,16 +188,17 @@ lesson_review:
   affiliation: MRC Human Genetics Unit, MRC Institute of Genetics and Cancer
   img: graeme_grimes.jpeg
   url:
+- name: Mary Llewellyn
+  role: Course Developer
+  affiliation: School of Mathematics
+  img: mary_llewellyn.jpeg
+  url: 
 - name: Tim Booth
   role: Bioinformatician/Programmer
   affiliation: Edinburgh Genomics
   img: tim_booth.jpeg
   url:
-- name: Mary Llewellyn
-  role: Course Developer
-  affiliation: School of Mathematics
-  img: mary_llewellyn.jpeg
-  url:
+
 
 show_heading: false 
 ---  
@@ -328,7 +329,7 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
 <table class="center-cell-item">
     {% for member in page.programme_coordination_extension %}
     <tr> 
-      <td><img src="images/profiles/{{ member.img }}" width=100 alt="{{ member.name }}"></td>
+      <td><img src="images/profiles/{{ member.img }}" width=80 alt="{{ member.name }}"></td>
       <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
     </tr>
     {% endfor %}
