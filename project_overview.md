@@ -6,7 +6,7 @@ theme: "Project overview"
 show_heading: false
 ---  
 
-# Main project (Feb 2021 - February 2023)
+# Main project (Feb 2021 - Feb 2023)
 
 ## Executive summary
 
