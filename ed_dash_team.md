@@ -293,7 +293,7 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
 ## Project Lead
 
 <table class="center-cell-item">
-    {% for member in page.co_project_lead_extension: %}
+    {% for member in page.project_lead_extension %}
     <tr>
       <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
       <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
@@ -315,7 +315,7 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
 ## Lesson Reviewers
 
 <table class="center-cell-item">
-    {% for member in page.co_lesson_review %}
+    {% for member in page.lesson_review %}
     <tr>
       <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
       <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
@@ -326,7 +326,7 @@ The Ed-DaSH Steering Group is formed of the Co-investigators and Co-leads of the
 ## Programme Coordination
 
 <table class="center-cell-item">
-    {% for member in page.programme_coordination_extension: %}
+    {% for member in page.programme_coordination_extension %}
     <tr> 
       <td><img src="images/profiles/{{ member.img }}" width=120 alt="{{ member.name }}"></td>
       <td><a href="{{ member.url }}" alt="{{ member.name }}">{{ member.name }}</a>, {{ member.role }}, {{ member.affiliation }}</td>
