@@ -5,11 +5,14 @@ layout: page
 theme: "Project overview"
 show_heading: false
 ---  
-# Executive summary
+
+# Main project (Feb 2021 - February 2023)
+
+## Executive summary
 
 We aim to develop and deliver workshops that help health and bioscience researchers – in academia, industry and society as a whole – to be both competent and confident in working with their data.
 
-# Project overview
+## Project overview
 
 Biological and medical research has changed radically in the last 30 years due to new technologies that measure thousands of different molecular components in cells at the same time. For example, it is now routine to measure entire human genomes, all the proteins making up living cells, or DNA from all the microbes in a sample of soil. All this generates huge amounts of data that come in different formats and often at different times and places. So, today all biological researchers need to be good at managing and analyzing data – it is no longer the remit of the specialist. This is not just a UK challenge: international studies show the same trend. The demand for data science training far outstrips supply.
 
@@ -32,7 +35,7 @@ We will deliver these training workshops (online) using a well-established commu
 
 Our programme will help level-up data skills across the UK and develop a growing cohort of confident practitioners across all career stages and industries. This will help meet the growing demand for data-savvy health and bioscience researchers in academia and industry.
 
-# 2023-2024 project extension
+# Extension (Dec 2023 - Mar 2024)
 
 The Carpentries Laboratory peer review process increases the impact and legacy of the materials produced under the original grant. This ties in to widening delivery, as peer review incorporates “road testing” the materials via external instructor teams. The Carpentries infrastructure was upgraded over the duration of the original grant. Upgrading our workshop materials to the new infrastructure will improve their accessibility and navigation. The final stage of the peer review process is publication of lessons in the Journal of Open Source Education (JoSE), which will increase the reach and visibility of our work. We propose to upgrade and peer review 3 workshops: High-dimensional statistics with R, Workflows with Nextflow, and Workflows with Snakemake. All of these workshops are applicable to data science in fundamental biological research. Furthermore, the extra time will enable us to finish writing and publishing our proposed manuscript on lesson development, that will describe what we have learned from the Ed-DaSH project to aid future efforts in bioscience training.
 
